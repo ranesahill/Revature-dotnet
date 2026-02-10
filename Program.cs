@@ -1,56 +1,24 @@
-﻿using System;
-// System.Console.WriteLine(StaticClassDemo.StaticClassConstant);
+using System; // Basic language types used by the program.
 
+namespace Day5 // Logical grouping for this demo.
+{
+    class Program // Entry class for the console app.
+    {
+        public static void Main() // Program starts executing here.
+        {
+            // Create two managed objects to demonstrate GC behavior.
+            var res1 = new Resource("Res1"); // first object
+            var res2 = new Resource("Res2"); // second object
 
-// var x = new ClassVsObject();
-// System.Console.WriteLine(x.MyProperty);
+            // Remove the reference to Res1 so it becomes eligible for collection.
+            res1 = null;
+            // Res2 is still referenced, so it should not be collected yet.
 
+            // Force a garbage collection (only for demonstration).
+            GC.Collect();
+            GC.WaitForPendingFinalizers(); // Wait for finalizers to complete.
 
-// PropertiesDemo demo = new PropertiesDemo();
-// Console.WriteLine(demo.MyProperty);
-// // demo.MyProperty = 50; // This will cause a compile-time error
-
-// Console.WriteLine($"Age before modification: {demo.MyAge}");
-// // demo.MyAge = 25; // This will cause a compile-time error
-// demo.ModifyName();
-// Console.WriteLine($"Age before modification: {demo.MyAge}");
-
-// ElectricityOnlySupplier supplier = new ElectricityOnlySupplier();
-
-// GenerateBill(supplier);
-
-// void GenerateBill(IElectricityProvider electricityProvider)
-// {
-//     electricityProvider.SupplyService();
-//     internetProvider.Supply();
-// }
-
-
-Fruit discount = new Apple();
-
-discount.ApplyDiscount();
-
-
-//Fruit d = new Fruit();
-
-//IElectricityProvider x = new IElectricityProvider();
-
-
-//abstract class Car
-//{ 
-//}
-
-//abstract class IMusicPlayer
-//{
-//}
-
-//class Swift : Car, IHaveWings, IMUsicPlayer
-//{
-//    Body body;
-//    IEnumerable<Tire> Tiers;
-//    MusicPlayer musicPlayer;
-//}
-
-//// is-a
-//// is part of
-//// has-a
+            Console.WriteLine("GC completed"); // End of demo output.
+        }
+    }
+}
