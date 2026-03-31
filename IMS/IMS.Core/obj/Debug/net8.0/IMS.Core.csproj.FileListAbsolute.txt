@@ -1,0 +1,12 @@
+E:\github\IMS\IMS.Core\bin\Debug\net8.0\IMS.Core.deps.json
+E:\github\IMS\IMS.Core\bin\Debug\net8.0\IMS.Core.dll
+E:\github\IMS\IMS.Core\bin\Debug\net8.0\IMS.Core.pdb
+E:\github\IMS\IMS.Core\obj\Debug\net8.0\IMS.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\github\IMS\IMS.Core\obj\Debug\net8.0\IMS.Core.AssemblyInfoInputs.cache
+E:\github\IMS\IMS.Core\obj\Debug\net8.0\IMS.Core.AssemblyInfo.cs
+E:\github\IMS\IMS.Core\obj\Debug\net8.0\IMS.Core.csproj.CoreCompileInputs.cache
+E:\github\IMS\IMS.Core\obj\Debug\net8.0\IMS.Core.sourcelink.json
+E:\github\IMS\IMS.Core\obj\Debug\net8.0\IMS.Core.dll
+E:\github\IMS\IMS.Core\obj\Debug\net8.0\refint\IMS.Core.dll
+E:\github\IMS\IMS.Core\obj\Debug\net8.0\IMS.Core.pdb
+E:\github\IMS\IMS.Core\obj\Debug\net8.0\ref\IMS.Core.dll

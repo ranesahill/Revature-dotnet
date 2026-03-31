@@ -1,0 +1,15 @@
+C:\Users\Admin\OneDrive\Desktop\github\Asyncdemo\obj\Debug\net10.0\Asyncdemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\OneDrive\Desktop\github\Asyncdemo\obj\Debug\net10.0\Asyncdemo.AssemblyInfoInputs.cache
+C:\Users\Admin\OneDrive\Desktop\github\Asyncdemo\obj\Debug\net10.0\Asyncdemo.AssemblyInfo.cs
+C:\Users\Admin\OneDrive\Desktop\github\Asyncdemo\obj\Debug\net10.0\Asyncdemo.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive\Desktop\github\Asyncdemo\obj\Debug\net10.0\Asyncdemo.sourcelink.json
+C:\Users\Admin\OneDrive\Desktop\github\Asyncdemo\bin\Debug\net10.0\Asyncdemo.exe
+C:\Users\Admin\OneDrive\Desktop\github\Asyncdemo\bin\Debug\net10.0\Asyncdemo.deps.json
+C:\Users\Admin\OneDrive\Desktop\github\Asyncdemo\bin\Debug\net10.0\Asyncdemo.runtimeconfig.json
+C:\Users\Admin\OneDrive\Desktop\github\Asyncdemo\bin\Debug\net10.0\Asyncdemo.dll
+C:\Users\Admin\OneDrive\Desktop\github\Asyncdemo\bin\Debug\net10.0\Asyncdemo.pdb
+C:\Users\Admin\OneDrive\Desktop\github\Asyncdemo\obj\Debug\net10.0\Asyncdemo.dll
+C:\Users\Admin\OneDrive\Desktop\github\Asyncdemo\obj\Debug\net10.0\refint\Asyncdemo.dll
+C:\Users\Admin\OneDrive\Desktop\github\Asyncdemo\obj\Debug\net10.0\Asyncdemo.pdb
+C:\Users\Admin\OneDrive\Desktop\github\Asyncdemo\obj\Debug\net10.0\Asyncdemo.genruntimeconfig.cache
+C:\Users\Admin\OneDrive\Desktop\github\Asyncdemo\obj\Debug\net10.0\ref\Asyncdemo.dll

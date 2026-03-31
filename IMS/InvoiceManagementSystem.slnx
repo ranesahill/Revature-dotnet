@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="IMS.API/IMS.API.csproj" />
+  <Project Path="IMS.App/IMS.App.csproj" />
+  <Project Path="IMS.Core/IMS.Core.csproj" />
+  <Project Path="IMS.Infrastructure/IMS.Infrastructure.csproj" />
+  <Project Path="IMS.Tests/IMS.Tests.csproj" />
+</Solution>

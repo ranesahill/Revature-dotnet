@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "I+2J+I79I50=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Admin\\OneDrive\\Desktop\\github\\SingletonDemo\\SingletonDemo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\10.0.3\\microsoft.extensions.dependencyinjection.10.0.3.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.3\\microsoft.extensions.dependencyinjection.abstractions.10.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,66 @@
+version: '3.8'
+
+services:
+  # ── MySQL Database ────────────────────────
+  mysql:
+    image: mysql:8.0
+    container_name: ims-mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root123
+      MYSQL_DATABASE: InvoiceManagementDB
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # ── Redis Cache ───────────────────────────
+  redis:
+    image: redis:7-alpine
+    container_name: ims-redis
+    ports:
+      - "6379:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # ── API Backend ───────────────────────────
+  invoice-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ims-api
+    ports:
+      - "5000:5000"
+    environment:
+      - ConnectionStrings__DefaultConnection=Server=mysql;Port=3306;Database=InvoiceManagementDB;User=root;Password=root123;
+      - Jwt__Key=YourSuperSecretKeyThatIsAtLeast256BitsLong!2024
+      - Jwt__Issuer=IMS.API
+      - Jwt__Audience=IMS.Client
+      - Jwt__ExpiryHours=8
+      - Redis__ConnectionString=redis:6379
+    depends_on:
+      mysql:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+
+  # ── React Frontend ────────────────────────
+  invoice-react:
+    build:
+      context: ./invoice-react
+      dockerfile: Dockerfile
+    container_name: ims-react
+    ports:
+      - "3000:3000"
+    depends_on:
+      - invoice-api
+
+volumes:
+  mysql_data:

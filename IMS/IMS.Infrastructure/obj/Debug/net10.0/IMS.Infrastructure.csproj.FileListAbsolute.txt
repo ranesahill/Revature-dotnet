@@ -1,0 +1,6 @@
+E:\github\IMS\IMS.Infrastructure\obj\Debug\net10.0\IMS.Infrastructure.csproj.AssemblyReference.cache
+E:\github\IMS\IMS.Infrastructure\obj\Debug\net10.0\IMS.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\github\IMS\IMS.Infrastructure\obj\Debug\net10.0\IMS.Infrastructure.AssemblyInfoInputs.cache
+E:\github\IMS\IMS.Infrastructure\obj\Debug\net10.0\IMS.Infrastructure.AssemblyInfo.cs
+E:\github\IMS\IMS.Infrastructure\obj\Debug\net10.0\IMS.Infrastructure.csproj.CoreCompileInputs.cache
+E:\github\IMS\IMS.Infrastructure\obj\Debug\net10.0\IMS.Infrastructure.sourcelink.json

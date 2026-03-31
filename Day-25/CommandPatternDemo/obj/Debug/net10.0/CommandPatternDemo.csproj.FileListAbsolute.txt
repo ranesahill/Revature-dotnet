@@ -1,0 +1,15 @@
+E:\github\Day-25\CommandPatternDemo\bin\Debug\net10.0\CommandPatternDemo.exe
+E:\github\Day-25\CommandPatternDemo\bin\Debug\net10.0\CommandPatternDemo.deps.json
+E:\github\Day-25\CommandPatternDemo\bin\Debug\net10.0\CommandPatternDemo.runtimeconfig.json
+E:\github\Day-25\CommandPatternDemo\bin\Debug\net10.0\CommandPatternDemo.dll
+E:\github\Day-25\CommandPatternDemo\bin\Debug\net10.0\CommandPatternDemo.pdb
+E:\github\Day-25\CommandPatternDemo\obj\Debug\net10.0\CommandPatternDemo.GeneratedMSBuildEditorConfig.editorconfig
+E:\github\Day-25\CommandPatternDemo\obj\Debug\net10.0\CommandPatternDemo.AssemblyInfoInputs.cache
+E:\github\Day-25\CommandPatternDemo\obj\Debug\net10.0\CommandPatternDemo.AssemblyInfo.cs
+E:\github\Day-25\CommandPatternDemo\obj\Debug\net10.0\CommandPatternDemo.csproj.CoreCompileInputs.cache
+E:\github\Day-25\CommandPatternDemo\obj\Debug\net10.0\CommandPatternDemo.sourcelink.json
+E:\github\Day-25\CommandPatternDemo\obj\Debug\net10.0\CommandPatternDemo.dll
+E:\github\Day-25\CommandPatternDemo\obj\Debug\net10.0\refint\CommandPatternDemo.dll
+E:\github\Day-25\CommandPatternDemo\obj\Debug\net10.0\CommandPatternDemo.pdb
+E:\github\Day-25\CommandPatternDemo\obj\Debug\net10.0\CommandPatternDemo.genruntimeconfig.cache
+E:\github\Day-25\CommandPatternDemo\obj\Debug\net10.0\ref\CommandPatternDemo.dll
